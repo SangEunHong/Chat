@@ -1,9 +1,9 @@
 # CustomChat Portal & RAG Chatbot
 
-회사 포털용 **게시판(공지/질문/지식공유)** 과 회사 웹사이트 콘텐츠를 검색·요약해 주는 **RAG 챗봇**을 한 저장소에서 관리합니다.  
+**게시판** 과 회사 웹사이트 콘텐츠를 검색·요약해 주는 **RAG 챗봇**을 한 저장소에서 관리합니다.  
 프론트는 React + Tailwind, 챗봇 파이프라인은 BeautifulSoup → 정제/청크 → Sentence-Transformer 임베딩 → **FAISS** → **MMR 재랭킹** → FastAPI 서빙 구조입니다.
 
-> 데모 스크린샷/영상은 `docs/` 폴더에 넣고 아래 경로만 바꿔주세요.
+> 데모 스크린샷/영상은 `docs/` 폴더에
 
 ---
 
